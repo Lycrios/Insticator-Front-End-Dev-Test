@@ -1,0 +1,183 @@
+/*
+ * @Author: Matthew Auld 
+ * @Date: 2019-03-13 03:10:51 
+ * @Last Modified by: Matthew Auld
+ * @Last Modified time: 2019-03-13 03:18:15
+ * Copyright 2019 JumpButton North - All rights reserved. 
+ */
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-LightItalic.woff2") format("woff2"), url("./fonts/Siro-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-Bold.woff2") format("woff2"), url("./fonts/Siro-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-ExtraBold.woff2") format("woff2"), url("./fonts/Siro-ExtraBold.woff") format("woff");
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-BoldItalic.woff2") format("woff2"), url("./fonts/Siro-BoldItalic.woff") format("woff");
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-Light.woff2") format("woff2"), url("./fonts/Siro-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-SemiBold.woff2") format("woff2"), url("./fonts/Siro-SemiBold.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-Italic.woff2") format("woff2"), url("./fonts/Siro-Italic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-HeavyItalic.woff2") format("woff2"), url("./fonts/Siro-HeavyItalic.woff") format("woff");
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-ExtraLight.woff2") format("woff2"), url("./fonts/Siro-ExtraLight.woff") format("woff");
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-Heavy.woff2") format("woff2"), url("./fonts/Siro-Heavy.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-ExtraBoldItalic.woff2") format("woff2"),
+		url("./fonts/Siro-ExtraBoldItalic.woff") format("woff");
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-Regular.woff2") format("woff2"), url("./fonts/Siro-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-SemiBoldItalic.woff2") format("woff2"),
+		url("./fonts/Siro-SemiBoldItalic.woff") format("woff");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Siro";
+	src: url("./fonts/Siro-ExtraLightItalic.woff2") format("woff2"),
+		url("./fonts/Siro-ExtraLightItalic.woff") format("woff");
+	font-weight: 200;
+	font-style: italic;
+}
+
+/* roboto-100 - latin */
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 100;
+	src: url("./fonts/roboto-v18-latin-100.eot");
+	src: local("Roboto Thin"), local("Roboto-Thin"),
+		url("./fonts/roboto-v18-latin-100.eot?#iefix") format("embedded-opentype"),
+		url("./fonts/roboto-v18-latin-100.woff2") format("woff2"),
+		url("./fonts/roboto-v18-latin-100.woff") format("woff"),
+		url("./fonts/roboto-v18-latin-100.ttf") format("truetype"),
+		url("./fonts/roboto-v18-latin-100.svg#Roboto") format("svg");
+}
+/* roboto-regular - latin */
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	src: url("./fonts/roboto-v18-latin-regular.eot");
+	src: local("Roboto"), local("Roboto-Regular"),
+		url("./fonts/roboto-v18-latin-regular.eot?#iefix") format("embedded-opentype"),
+		url("./fonts/roboto-v18-latin-regular.woff2") format("woff2"),
+		url("./fonts/roboto-v18-latin-regular.woff") format("woff"),
+		url("./fonts/roboto-v18-latin-regular.ttf") format("truetype"),
+		url("./fonts/roboto-v18-latin-regular.svg#Roboto") format("svg");
+}
+/* roboto-500 - latin */
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	src: url("./fonts/roboto-v18-latin-500.eot");
+	src: local("Roboto Medium"), local("Roboto-Medium"),
+		url("./fonts/roboto-v18-latin-500.eot?#iefix") format("embedded-opentype"),
+		url("./fonts/roboto-v18-latin-500.woff2") format("woff2"),
+		url("./fonts/roboto-v18-latin-500.woff") format("woff"),
+		url("./fonts/roboto-v18-latin-500.ttf") format("truetype"),
+		url("./fonts/roboto-v18-latin-500.svg#Roboto") format("svg");
+}
+/* roboto-900 - latin */
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	src: url("./fonts/roboto-v18-latin-900.eot");
+	src: local("Roboto Black"), local("Roboto-Black"),
+		url("./fonts/roboto-v18-latin-900.eot?#iefix") format("embedded-opentype"),
+		url("./fonts/roboto-v18-latin-900.woff2") format("woff2"),
+		url("./fonts/roboto-v18-latin-900.woff") format("woff"),
+		url("./fonts/roboto-v18-latin-900.ttf") format("truetype"),
+		url("./fonts/roboto-v18-latin-900.svg#Roboto") format("svg");
+}
+
+@font-face {
+	font-family: "Myriad Pro Condensed";
+	src: url("./fonts/Myriad.woff2")
+			format("woff2"),
+		url("./fonts/Myriad.woff")
+			format("woff");
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Myriad Pro";
+	src: url("https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+			format("woff2"),
+		url("https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+			format("woff"),
+		url("https://use.typekit.net/af/1b1b1e/00000000000000000001709e/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+			format("opentype");
+	font-style: normal;
+	font-weight: 700;
+}

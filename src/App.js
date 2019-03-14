@@ -1,28 +1,28 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+/*
+ * @Author: Matthew Auld
+ * @Date: 2019-03-13 00:40:05
+ * @Last Modified by: Matthew Auld
+ * @Last Modified time: 2019-03-13 04:32:03
+ * Copyright 2019 JumpButton North - All rights reserved.
+ */
+
+import React, { Component, Fragment } from "react";
+import { Switch, Route, withRouter } from "react-router-dom";
+import StoreLandingPage from "./pages/store-landing-page";
+
+import "./App.scss";
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+	state = {};
+	render() {
+		return (
+			<Fragment>
+				<Switch>
+					<Route path="/" exact component={StoreLandingPage} />
+				</Switch>
+			</Fragment>
+		);
+	}
 }
 
-export default App;
+export default withRouter(App);
